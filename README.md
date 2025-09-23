@@ -41,14 +41,18 @@ Taking only the liquid extract of butterfly pea flowers in the image. The segmen
 The Tiny Swin Transformer model is used to classify segmented solution images into their corresponding pH values, achieved by fine-tuning all layers of the model using the collected dataset
 
 ## Result
-![Confusion Matrix](./img/confusion_matrix.png)
-![Classification Report](./img/classification_report.png)
+<p align="center">
+  <img src="./img/confusion_matrix.png" alt="Logo" width="200"/>
+</p>
+<p align="center">
+  <img src="./img/classification_report.png" alt="Logo" width="250"/>
+</p>
 
 - Train Accuracy : 0.98
 
 - Validation Accuracy : 0.95
 
-- F1-Score for every pH value >= 0.9
+- F1-Score for every pH value >= 0.90
 
 ## Dependencies
 
