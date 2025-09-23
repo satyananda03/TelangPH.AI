@@ -30,13 +30,13 @@ TelangPH.AI is an AI-powered pH prediction system that utilises Butterfly Pea Fl
 
 ## Model Architecture
 The process of pH prediction consists of 2 main steps :
-1. Liquid Segmentation
+**1. Liquid Segmentation**
 
 Liquid segmentation is intended to segment out just the butterfly pea flower extract solution from the image.. The segmentation process involves a pre-trained Pyramid Scene Parsing Network (PSPNet) model to perform semantic segmentation on the solution, adopted from the research by Eppel et al., 2020 (https://doi.org/10.1021/acscentsci.0c00460).
 
 ![Segmentation](./img/segmentation.jpg)
 
-2. pH Classification
+**2. pH Classification**
 
 The Tiny Swin Transformer model is used to classify segmented solution images into their corresponding pH values, achieved by fine-tuning all layers of the model using the collected dataset
 
@@ -48,11 +48,9 @@ The Tiny Swin Transformer model is used to classify segmented solution images in
   <img src="./img/classification_report.png" alt="Logo" width="400"/>
 </p>
 
-- Train Accuracy : 0.98
-
-- Validation Accuracy : 0.95
-
-- F1-Score for every pH value >= 0.90
+**Train Accuracy : 0.98**
+**Validation Accuracy : 0.95**
+**F1-Score for every pH value >= 0.90**
 
 ## Dependencies
 
