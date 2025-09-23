@@ -42,10 +42,10 @@ The Tiny Swin Transformer model is used to classify segmented solution images in
 
 ## Result
 <p align="center">
-  <img src="./img/confusion_matrix.png" alt="Logo" width="200"/>
+  <img src="./img/confusion_matrix.png" alt="Logo" width="400"/>
 </p>
 <p align="center">
-  <img src="./img/classification_report.png" alt="Logo" width="250"/>
+  <img src="./img/classification_report.png" alt="Logo" width="400"/>
 </p>
 
 - Train Accuracy : 0.98
