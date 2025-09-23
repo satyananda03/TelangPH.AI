@@ -32,7 +32,7 @@ TelangPH.AI is an AI-powered pH prediction system that utilises Butterfly Pea Fl
 The pH prediction consists of 2 main steps :
 1. Liquid Segmentation
 
-Taking only the liquid extract of butterfly pea flowers in the image. The segmentation process involves a pre-trained Pyramid Scene Parsing Network (PSPNet) model to perform semantic segmentation on the solution, adopted from the research by Eppel et al., 2020 (https://doi.org/10.1021/acscentsci.0c00460).
+Liquid segmentation is intended to segment out just the butterfly pea flower extract solution from the image.. The segmentation process involves a pre-trained Pyramid Scene Parsing Network (PSPNet) model to perform semantic segmentation on the solution, adopted from the research by Eppel et al., 2020 (https://doi.org/10.1021/acscentsci.0c00460).
 
 ![Segmentation](./img/segmentation.jpg)
 
