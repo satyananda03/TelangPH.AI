@@ -1,5 +1,5 @@
 # TelangPH.AI
-
+![Logo](./img/logo.png)
 ## Introduction
 
 TelangPH.AI is an AI-powered pH prediction system that utilises Butterfly Pea Flower as a pH indicator. This project aims to develop an affordable alternative to conventional pH measurement tools by harnessing the potential of natural pH indicators. As a pH indicator, Butterfly Pea Flower extract has the ability to change colour when mixed with other liquids that have different pH values due to its anthocyanin content. The colour change in the extract mixture is the main characteristic of the pH value.
