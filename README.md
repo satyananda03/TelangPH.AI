@@ -20,9 +20,9 @@ TelangPH.AI is an AI-powered pH prediction system that utilises Butterfly Pea Fl
 
 ## Dataset
 
-- **Description:** : The dataset consists of images of Buffer solutions with a pH range of 2 to 13 that have been mixed with butterfly pea flower extract and placed in clear glasses, resulting in variations in the colour of the extract at different pH values.
+- **Description:** : The dataset consists of images of Buffer solutions with a pH range of 2 to 13 that have been mixed with butterfly pea flower extract and placed in clear glasses, resulting in variations in the colour of the extract at different pH values. This dataset contains a total of ± 7,200 images, with ± 600 images for each pH value.
 
-- Color variation of Butterfly Pea Flower Extract in pH 2 - 13 
+- Color variation of Butterfly Pea Flower Extract in pH 2 - 13 :
 
 ![Dataset](./img/dataset.jpg)
 
