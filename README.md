@@ -57,25 +57,25 @@ The Tiny Swin Transformer model is used to classify segmented solution images in
 
 ## Project Setup
 
-1. Install [Docker](https://docs.docker.com/get-docker/)
+**1. Install [Docker](https://docs.docker.com/get-docker/)**
 
-2. Clone this repository :
+**2. Clone this repository**
 ```bash
 git clone https://github.com/satyananda03/TelangPH.AI
 cd TelangPH.AI
 ```
 
-3. Build Docker Image
+**3. Build Docker Image**
 ```bash
 docker build -t ph-prediction-app .
 ```
 
-4. Run the Container
+**4. Run the Container**
 ```bash
 docker run -p 8000:8000 ph-prediction-app
 ```
 
-5. Access the API Endpoint 
+**5. Access the API Endpoint** 
 ```bash
 http://localhost:8000/docs
 ```
