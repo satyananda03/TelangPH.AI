@@ -53,7 +53,7 @@ The Tiny Swin Transformer model is used to classify segmented solution images in
 
 **Validation Accuracy : 0.95**
 
-**F1-Score for every pH value >= 0.90**
+**F1-Score for every pH value >= 0.89**
 
 ## Project Setup
 

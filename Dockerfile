@@ -25,7 +25,7 @@ hf_hub_download(repo_id="Satyananda/pH_prediction",
                 filename="PSPNet_liquid_segmentation.onnx",
                 local_dir="app/models")
 hf_hub_download(repo_id="Satyananda/pH_prediction",
-                filename="TinySwinTransformer_pH_Classification.onnx",
+                filename="ConvNeXT_pH_Classification.onnx",
                 local_dir="app/models")
 EOF
 
