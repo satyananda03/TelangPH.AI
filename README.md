@@ -39,7 +39,7 @@ Liquid segmentation is intended to segment out just the butterfly pea flower ext
 
 **2. pH Classification**
 
-The ConvNeXT model is used to classify segmented solution images into their corresponding pH values, achieved by fine-tuning all layers of the model using the collected dataset
+The Tiny ConvNeXT model is used to classify segmented solution images into their corresponding pH values, achieved by fine-tuning all layers of the model using the collected dataset
 
 ## Result
 <p align="center">
