@@ -63,8 +63,9 @@ The Tiny ConvNeXT model is used to classify segmented solution images into their
 
 **F1-Score for every pH value >= 0.89**
 
-**Testing Result**
-A comparison of the pH prediction results with the laboratory pH meter readings on 50 samples of solutions found in everyday life showed an MAE of 0.372. This indicates that the predictions were accurate.
+**Testing Result :**
+
+Comparison of the pH prediction results with the laboratory pH meter readings on 50 samples of solutions found in everyday life showed an MAE of 0.372. This indicates that the predictions were accurate.
 <p align="center">
   <img src="./img/test.jpg" alt="Logo" width="350"/>
 </p>
