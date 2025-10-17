@@ -72,6 +72,13 @@ Comparison of the pH prediction results with the laboratory pH meter readings on
 
 Research articles related to dataset development have been accepted in SINTA 3 accredited journals https://drive.google.com/drive/folders/1asz_k7joOhAMxtJ6DC97gwmUlSKfwTVQ
 
+## Cloud Deployment
+- Build & push docker image to Artifact Registry
+- Run container on Cloud Run
+<p align="center">
+  <img src="./img/GCP.jpg" alt="Logo" width="400"/>
+</p>
+
 ## Try this app
 
 **Using Streamlit**
