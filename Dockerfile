@@ -30,4 +30,7 @@ hf_hub_download(repo_id="Satyananda/pH_prediction",
 EOF
 
 EXPOSE 8000
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Mendefinisikan executable utama (uvicorn)
+ENTRYPOINT ["uvicorn"]
+# mendefinisikan argumen default untuk ENTRYPOINT
+CMD ["app.main:app", "--host", "0.0.0.0", "--port", "8000"]

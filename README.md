@@ -20,7 +20,9 @@ TelangPH.AI is an AI-powered pH prediction system that utilises Butterfly Pea Fl
 
 ## Dataset
 
-- **Description:** : The dataset consists of images of Buffer solutions with a pH range of 2 to 13 that have been mixed with butterfly pea flower extract and placed in clear glasses, resulting in variations in the colour of the extract at different pH values. This dataset contains a total of ± 7,200 images, with ± 600 images for each pH value.
+- **Description:** : The dataset consists of images of Buffer solutions with a pH range of 2 to 13 that have been mixed with butterfly pea flower extract and placed in clear glasses, resulting in variations in the colour of the extract at different pH values. This dataset contains a total of ± 7,200 images, with ± 600 images for each pH value. 
+
+- Dataset development in collaboration with academics in the field of chemistry
 
 - Color variation of Butterfly Pea Flower Extract in pH 2 - 13 :
 
@@ -43,6 +45,12 @@ The Tiny ConvNeXT model is used to classify segmented solution images into their
 
 ## Result
 <p align="center">
+  <img src="./img/loss.jpg" alt="Logo" width="300"/>
+</p>
+<p align="center">
+  <img src="./img/acc.jpg" alt="Logo" width="300"/>
+</p>
+<p align="center">
   <img src="./img/confusion_matrix.png" alt="Logo" width="400"/>
 </p>
 <p align="center">
@@ -55,35 +63,15 @@ The Tiny ConvNeXT model is used to classify segmented solution images into their
 
 **F1-Score for every pH value >= 0.89**
 
-## Project Setup
+**Testing Result**
+A comparison of the pH prediction results with the laboratory pH meter readings on 50 samples of solutions found in everyday life showed an MAE of 0.372. This indicates that the predictions were accurate.
+<p align="center">
+  <img src="./img/test.jpg" alt="Logo" width="350"/>
+</p>
 
-**1. Install [Docker](https://docs.docker.com/get-docker/)**
+## Try this app
 
-**2. Clone this repository**
+**Using Streamlit**
 ```bash
-git clone https://github.com/satyananda03/TelangPH.AI
-cd TelangPH.AI
+Streamlit run prediction_UI.py
 ```
-
-**3. Build Docker Image**
-```bash
-docker build -t ph-prediction-app .
-```
-
-**4. Run the Container**
-```bash
-docker run -p 8000:8000 ph-prediction-app
-```
-
-**5. Access the API Endpoint** 
-```bash
-http://localhost:8000/docs
-```
-
-## Future Improvement 
-
-- Cloud deployment
-
-- MLOps integration
-
-- User Interface (UI) to consume the API
