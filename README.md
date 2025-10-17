@@ -70,6 +70,8 @@ Comparison of the pH prediction results with the laboratory pH meter readings on
   <img src="./img/test.jpg" alt="Logo" width="350"/>
 </p>
 
+Research articles related to dataset development have been accepted in SINTA 3 accredited journals https://drive.google.com/drive/folders/1asz_k7joOhAMxtJ6DC97gwmUlSKfwTVQ
+
 ## Try this app
 
 **Using Streamlit**
